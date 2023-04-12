@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="img/favicon.png" type="image/png">
+
+    <!--=============== REMIXICONS ===============-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <title>Carcassonne</title>
+</head>
+
+<body>
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">JÓVANEZÍGY</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">Kezdőlap</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">Szabályok</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#program" class="nav__link">Program</a>
+                    </li>
+                </ul>
+
+                <!-- Close button -->
+
+                <i class="ri-close-line nav__close" id="nav-close"></i>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="ri-function-line"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <!--==================== HOME ====================-->
+        <section class="home" id="home">
+            <img src="img/Carcassonne.jpg" alt="" class="home__img">
+
+            <div class="home__container container grid">
+                <div class="home__data">
+                    <h1 class="home__data-title">Carcassonne</h1>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== SZABÁLYOK ====================-->
+        <section class="about section" id="about">
+            <div class="about__container container grid">
+                <h2 class="section__title about__title">Eredeti szabályok</h2>
+                <div class="about__data">
+
+                    <p class="about__description">A tábla fokozatosan épül a játék folyamán a játékosok által
+                        elhelyezett mezőkártyák segítségével.
+                        Pontokat a létrehozott mezőkombinációkkal lehet szerezni (alapesetben utakat, réteket, városokat
+                        és kolostorokat építhetünk).
+                    </p>
+                    <p class="about__description">A játék egyetlen, előre meghatározott mezőkártyával kezdődik (e
+                        kártyát hátlapja segítségével különböztethetjük meg a többitől, mivel mintázata pontosan a többi
+                        inverze). A maradék 71 kártyát
+                        összekeverjük és lefelé fordítva az asztalra helyezzük. A játékosok egymás után húznak a
+                        kártyákból
+                        és megpróbálják azokat a már lent lévők mellé lerakni, úgy, hogy az a számukra legelőnyösebb
+                        földrajzi viszonyokat eredményezze. Természetesen a mezőkártyáknak megfelelően kell
+                        illeszkedniük
+                        egymáshoz, azaz az utaknak utakkal, a városrészleteknek városrészletekkel, a réteknek rétekkel
+                        kell érintkezniük (a kolostorok speciális helyzetben vannak, mivel eleve készen kapják őket, így
+                        tehát itt is a rétek, illetve utak illeszkedésére kell figyelniük). Ezután választhatnak, hogy
+                        vagy elhelyeznek egyet a 7 emberük közül (a 8. a pontjelző táblán lépeget) a lerakott kártyára,
+                        vagy tovább
+                        engedik a játék lehetőségét az utánuk következőnek. A lerakott ember lovagként (várban),
+                        útonállóként (úton), szerzetesként (kolostorban) vagy parasztként (mezőn) foglal számukra egy
+                        adott területet. Figyelem! Ember csak olyan objektumra helyezhető, melyen még nem áll másik
+                        függetlenül attól, hogy az sajátunk vagy riválisunk. Természetesen lehet trükközni azzal, hogy
+                        egy még nem
+                        illeszkedő kártyára olyan szándékkal helyezünk el egy figurát, hogy az majd később csatlakozik a
+                        térkép számunkra fontos területével hiszen a pontszámításkor az a nyerő, akinek több embere
+                        van egy adott területen. A parasztok kivételével minden emberünket újra felhasználhatjuk, mivel
+                        ha sikeresen befejeztünk egy objektumot, a bábut levehetjük a térképről és később ismét
+                        területet
+                        foglalhatunk vele.
+                    </p>
+                    <p class="about__description"> Ha egy építmény lezárul, következik a pontozás.
+                        A város akkor tekinthető lezártnak, ha minden oldalról várfal (világosbarna) veszi körül.
+                        Akinek a legtöbb alattvalója áll rajta, az kapja a pontot. Egyenlőség esetén minden érintett
+                        játékos
+                        megkapja a pontot. Minden egyes várterület két pontot ér plusz a pajzsok is kettőt-kettőt. Ha
+                        egy
+                        területkártyán több városrész is található, attól még az a területkártya továbbra is csak két
+                        pontot
+                        ér.
+                        Út akkor zárul le, ha mindkét vége lezárt. Ez úgy lehetséges, hogy "belefut" az egyik várba vagy
+                        egy hármas (vagy négyes) kereszteződés megszakítja. Itt mindegyik rész egy pontot ér. Több
+                        alattvaló esetén a szabályok ugyanazok, mint a városnál.
+                        Csak abban a körben lehet ráállni, amikor lehelyezték. A kolostornál az a cél, hogy
+                        körbeépítsük. Ha mind a nyolc szomszédját lehelyeztük (lényegtelen, hogy ki rakta le), akkor a
+                        kolostort birtokló személy kilenc pontot kap.
+                        A felhelyezett parasztok a játék végéig a pályán maradnak. Játék végén a mezőn álló játékos
+                        a mezőjén lévő várakért (a méretétől függetlenül) három-három pontot kap.
+                        A játék végéig le nem zárt építmények is érnek még pontokat. A le nem zárt várak elemenként és
+                        pajzsonként egy-egy pontot érnek. A le nem zárt utak szintén elemenként egy-egy pontot érnek. A
+                        kolostor szomszédonként (plusz önmaga) egy pontot ér.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <!--==================== DISCOVER ====================-->
+        <section class="program section" id="program">
+            <h2 class="section__title">A program működése</h2>
+
+            <div class="discover__container container swiper-container">
+                <div class="about__data">
+
+                    <p class="about__description">A játék egy módosított verzóját valósítottuk meg ebben a
+                        programban. Egy játékos játssza, egy 5x8-as négyzetrácsos játéklapon 80 db
+                        területkártyával. A
+                        számítógép minden körben véletlenszerűen kiválaszt egy területkártyát, amit a játékosnak
+                        a
+                        megadott szabályok figyelembe vételével el kell helyeznie a játéklapon. A játék akkor ér
+                        véget, ha a játékos nem tudja elhelyezni a szabályok szerint a területkártyáját, vagy
+                        betelt a játéklap.
+                    </p>
+                    <p class="about__description">A játék első kártyáját tetszőleges mezőre helyezhetjüt. A
+                        maradék kártyákatúgy kell lerakni, hogy legalább egy oldaluk illeszkedjen egy már
+                        lerakott laphoz. Nem elég, ha a kártyának csak a sarka érintkezik egy (vagy több), már
+                        letett
+                        lap sarkával! Minden rét-, út-, és városrészletnek folytatódnia kell! Tehát a laphatáron
+                        rét csak réttel,
+                        város csak várossal érintkezhet, és a kártya széléhez futó útnak a másik kártyán
+                        folytatódnia
+                        kell. A városok értéke annyiszor 2 pont, ahány kártyából áll.Egy befejezett városért
+                        plusz 5 pont jár.
+                        Az utak értéke annyiszor 1 pont, ahány kártyából áll.
+                        Egy befejezett útért plusz 2 pont jár.
+                        A kolostor kártya annyi pontot ér, ahány szomszédja van (max. 8).
+                        Ha a játék úgy ért véget, hogy betelt a játéklap, akkor plusz 10 pont.
+                    </p>
+                    <p class="about__description"> A játék bármely fázisában ha lenyomjuk az Escape billentyűt,
+                        megjelenik a menü, ahol a felbontást módosíthatjuk és akár ki is léphetünk. A program
+                        kezelőfelülete letisztult és egyszerű, miután megadtuk nevünket, a "Start" feliratra
+                        kattintva el is indul a játszma. A jobb egér gombbal forgathatjuk a kezünkben lévő
+                        kártyát. A bal egér gombbal letehetjük, ha zöld a kártya körüli négyzet. A sárga keret
+                        jelentése, hogy letehetjük a helyre, ha megfelelően forgatjuk azt. A piros keret
+                        esetében nem tudjuk oda tenni a kártyát elforgatva sem. Ha a pálya betelik, vagy nem
+                        tudunk további kártyát letenni, a játék véget ér, és megtudjuk hány pontot értünk el.
+                        Ennél a záró menüpontnál megnézhetjük a TOP 10 legtöbb pontot elérő játékost és
+                        pontszámát, ha rákattintunk a "Rangsor" feliratra.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!--=============== SCROLL REVEAL===============-->
+        <script src="js/scrollreveal.min.js"></script>
+
+        <!--=============== SWIPER JS ===============-->
+        <script src="js/swiper-bundle.min.js"></script>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="js/main.js"></script>
+</body>
+
+</html>
